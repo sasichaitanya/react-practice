@@ -1,0 +1,21 @@
+let list = [
+    {done:true, index:0},
+    {done:false, index:1},
+    {done: true, index:2}
+  ]
+
+let index = 1;
+
+let newList = list.map(item => (
+    item.index===index? {...item, done: !item.done}: item
+))
+
+console.log('newList = ', newList);
+
+
+react life cycle methods 
+https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+
+
+controlled and uncontrolled components
+
